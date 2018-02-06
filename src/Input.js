@@ -8,7 +8,7 @@ export const Input = styled.input`
   width: 100%;
 
   &::placeholder {
-    color: green;
+    color: #ababab;
   }
 
   @media screen and (min-width: 500px) {
