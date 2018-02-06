@@ -1,7 +1,8 @@
-import React from 'react';
 import styled from 'styled-components';
 
-const Button = styled.button`
+const Button = styled.button.attrs({
+  type: "button",
+})`
   box-sizing: border-box;
   color: white;
   font-size: 30px;
