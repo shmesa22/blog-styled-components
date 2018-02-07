@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Input } from './Input';
 import { PrimaryButton, SecondaryButton } from './Button';
+import { StyledSearch } from './Search';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -44,7 +45,9 @@ class App extends Component {
             Clear
           </SecondaryButton>
         </div>
-        You're looking for: {search}
+        <StyledSearch
+          search={search}
+        />
       </Container>
     );
   }
